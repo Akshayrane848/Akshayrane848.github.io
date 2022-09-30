@@ -234,6 +234,19 @@ header .navbar ul li a:hover {
     color: #fff;
 }
 
+
+.about>.calendar {
+    height: 25rem;
+    width: 75rem;
+    margin: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 40px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .education .box-container {
     display: flex;
     align-items: center;
@@ -301,7 +314,7 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box {
     height: 30rem;
-    width: 60rem;
+    width: 50rem;
     border-radius: 1rem;
     margin: 2rem;
     overflow: hidden;

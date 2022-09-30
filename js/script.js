@@ -33,3 +33,13 @@ $(document).ready(function () {
         );
     });
 });
+
+
+
+
+
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "Akshayrane848", { responsive: true });
+
+
