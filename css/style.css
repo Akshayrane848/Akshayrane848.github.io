@@ -321,6 +321,18 @@ header .navbar ul li a:hover {
     cursor: pointer;
 }
 
+.portfolio .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--yellow);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.portfolio .box-container .box h3 span {
+    color: #eee;
+    padding: 0 .5rem;
+}
+
 .portfolio .box-container .box .butn {
     display: flex;
     justify-content: center;
@@ -330,6 +342,7 @@ header .navbar ul li a:hover {
 }
 
 .portfolio .box-container .box img {
+    margin-top: 10px;
     height: 60%;
     width: 100%;
     object-fit: cover;
@@ -490,4 +503,9 @@ header .navbar ul li a:hover {
     .contact .row form {
         margin: 3rem 0;
     }
+
+    .about>.calendar {
+        width: 80%;
+    }
+
 }
