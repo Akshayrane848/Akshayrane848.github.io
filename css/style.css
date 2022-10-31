@@ -313,22 +313,23 @@ header .navbar ul li a:hover {
 }
 
 .portfolio .box-container .box {
-    height: 30rem;
-    width: 50rem;
+    height: 40rem;
+    width: 60rem;
     border-radius: 1rem;
     margin: 2rem;
     overflow: hidden;
     cursor: pointer;
 }
 
-.portfolio .box-container .box h3 {
+.portfolio .box-container .box h2 {
     font-size: 2rem;
     color: var(--yellow);
     padding: 1rem 0;
     font-weight: normal;
+    margin-top: -15px;
 }
 
-.portfolio .box-container .box h3 span {
+.portfolio .box-container .box h2 span {
     color: #eee;
     padding: 0 .5rem;
 }
@@ -343,7 +344,7 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box img {
     margin-top: 10px;
-    height: 60%;
+    height: 40%;
     width: 100%;
     object-fit: cover;
 }
