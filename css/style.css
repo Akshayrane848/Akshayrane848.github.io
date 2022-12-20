@@ -247,6 +247,22 @@ header .navbar ul li a:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+
+
+.about>.cal {
+    height: auto;
+    width: 60rem;
+    margin: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.about>.cal img {
+    width: 100%;
+}
+
 .education .box-container {
     display: flex;
     align-items: center;
@@ -514,6 +530,10 @@ header .navbar ul li a:hover {
     }
 
     .about>.calendar {
+        width: 80%;
+    }
+
+    .about>.cal {
         width: 80%;
     }
 
