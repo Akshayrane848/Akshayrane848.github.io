@@ -347,7 +347,7 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box p {
     font-size: 1.5rem;
-    color: var(--yellow);
+    color: white;
     padding: 1rem 0;
     font-weight: normal;
     margin-top: -15px;
